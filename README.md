@@ -1,41 +1,55 @@
 # srgat
 
+---
+
 ファイル内のコメントに書かれたタグを管理する CLI
+
+## Installation
+
+```
+brew install srgat
+```
+
+```
+cargo install srgat
+```
 
 ## How to use.
 
-- ヘルプを表示する。
+- Display documentation
 
 ```
 srgat -h (or --help)
 ```
 
-- 指定したファイル内 (fuga.rs) のタグを表示する。
+- Display tags in the files (fuga.rs)
 
 ```
 srgat -f (or --file) fuga.rs
 ```
 
-- 指定したディレクトリにあるファイル内のタグを表示する。
+- Display tags in the directory (./scr)
 
 ```
 srgat -r (--recursively) ./scr
 ```
 
-- 指定したファイル (hoge.rs) を無視する。
+- Ignore the files (hoge.rs)
 
 ```
 srgat -i hoge.rs
 ```
 
-- 保存されているタグを一覧で表示する。
+- Display the all saved tags
 
 ```
 srgat -s (or --show)
 ```
 
-- カレントディレクトリにある保存されている
+- Display the saved tabs in the current directory
 
 ```
 srgat -d (or --dump) -f fuga.rs
 ```
+
+## Configuration
