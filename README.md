@@ -2,6 +2,10 @@
 
 ファイル内のコメントに書かれたタグを管理する CLI
 
+[![Rust](https://github.com/w40141/srgat/actions/workflows/rust.yml/badge.svg)](https://github.com/w40141/srgat/actions/workflows/rust.yml)
+![GitHub](https://img.shields.io/github/license/w40141/srgat)
+![Codecov](https://img.shields.io/codecov/c/github/w40141/srgat)
+
 ## Installation
 
 ```
