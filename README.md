@@ -1,7 +1,5 @@
 # srgat
 
----
-
 ファイル内のコメントに書かれたタグを管理する CLI
 
 ## Installation
