@@ -1,18 +1,32 @@
-fn search_term(term: &str, letter: &str) {
-    for (i, line) in letter.lines().enumerate() {
-        if line.contains(term) {
-            let line_num = i + 1;
-            println!("{}: {}", line_num, line)
-        }
-    }
+use std::path::PathBuf;
+use structopt::StructOpt;
+
+/// Manage tags written in comments in files
+#[derive(StructOpt, Debug)]
+#[structopt(name = "srgat")]
+struct Opt {
+    // The number of occurrences of the `v/verbose` flag
+    /// Verbose mode (-v, -vv, -vvv, etc.)
+    #[structopt(short, long, parse(from_occurrences))]
+    verbose: u8,
+    /// Pring tags in the files
+    #[structopt(short, long, parse(from_os_str))]
+    files: Vec<PathBuf>,
+    /// Print tags in the directory
+    #[structopt(short, long)]
+    recursively: String,
+    /// Ignore the files
+    #[structopt(short, long)]
+    ignore: String,
+    /// Print the all saved tags in default file or target file
+    #[structopt(short, long)]
+    show: String,
+    /// Save the tags in the files to default file or target file
+    #[structopt(short, long)]
+    output: PathBuf,
 }
 
 fn main() {
-    let term = "picture";
-    let quote = "\
-Every face, every shop, bedroom window, public-hose, and
-dark square is a picture feverishly turned--in search of what?
-It is the same with books.
-What do we seek throught millions of pages?";
-    search_term(term, quote);
+    let opt = Opt::from_args();
+    println!("{:#?}", opt);
 }

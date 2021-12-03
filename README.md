@@ -16,7 +16,7 @@ brew install srgat
 cargo install srgat
 ```
 
-## How to use.
+## How to use
 
 - Display documentation
 
@@ -42,16 +42,22 @@ srgat -r (--recursively) ./scr
 srgat -i hoge.rs
 ```
 
-- Display the all saved tags
+- Display the all saved tags in default file or target file
 
 ```
-srgat -s (or --show)
+srgat -s (or --show) (target_file)
 ```
 
-- Display the saved tabs in the current directory
+- Display the saved tags in the current directory
 
 ```
-srgat -d (or --dump) -f fuga.rs
+srgat -d (or --dump) save_file -f fuga.rs
 ```
+
+## Tags
+
+- TODO:
+- INFO:
+- FIX:
 
 ## Configuration

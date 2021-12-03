@@ -12,5 +12,6 @@ categories = ["command-line-utilities"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+regex = "1.5.4"
 serde_json = "1.0.72"
 structopt = "0.3.25"
