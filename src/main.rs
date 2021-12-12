@@ -3,30 +3,52 @@ use structopt::StructOpt;
 
 /// Manage tags written in comments in files
 #[derive(StructOpt, Debug)]
-#[structopt(name = "srgat")]
+#[structopt(name = "srgat", about = "tag search for source code")]
 struct Opt {
-    // The number of occurrences of the `v/verbose` flag
-    /// Verbose mode (-v, -vv, -vvv, etc.)
-    #[structopt(short, long, parse(from_occurrences))]
-    verbose: u8,
     /// Pring tags in the files
     #[structopt(short, long, parse(from_os_str))]
-    files: Vec<PathBuf>,
+    files: Option<Vec<PathBuf>>,
     /// Print tags in the directory
-    #[structopt(short, long)]
-    recursively: String,
+    #[structopt(short = "r")]
+    directory: Option<String>,
     /// Ignore the files
     #[structopt(short, long)]
-    ignore: String,
-    /// Print the all saved tags in default file or target file
-    #[structopt(short, long)]
-    show: String,
-    /// Save the tags in the files to default file or target file
-    #[structopt(short, long)]
-    output: PathBuf,
+    ignore: Option<String>,
+    // /// Print the all saved tags in default file or target file
+    // #[structopt(short = "t", default_value = "json")]
+    // ftype: String,
+    // /// Save the tags in the files to default file or target file
+    // #[structopt(short, long)]
+    // dump: Option<PathBuf>,
+}
+
+fn run_args(opt: Opt) {
+    // TODO: すっきりさせたい。
+    match opt.files {
+        Some(v) => run_files(v),
+        None => match opt.directory {
+            Some(v) => run_dirctory(v, opt.ignore),
+            None => run_show(),
+        },
+    }
+}
+
+fn run_files(v: Vec<PathBuf>) {
+    println!("{:#?}", v);
+}
+
+fn run_dirctory(dir: String, ignore: Option<String>) {
+    match ignore {
+        Some(v) => println!("{:#?}, {}", dir, v),
+        None => println!("{:#?}", dir),
+    }
+}
+
+fn run_show() {
+    println!("show")
 }
 
 fn main() {
     let opt = Opt::from_args();
-    println!("{:#?}", opt);
+    run_args(opt)
 }

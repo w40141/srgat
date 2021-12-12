@@ -5,6 +5,7 @@
 [![Rust](https://github.com/w40141/srgat/actions/workflows/rust.yml/badge.svg)](https://github.com/w40141/srgat/actions/workflows/rust.yml)
 ![GitHub](https://img.shields.io/github/license/w40141/srgat)
 ![Codecov](https://img.shields.io/codecov/c/github/w40141/srgat)
+![creato]
 
 ## Installation
 
@@ -18,40 +19,41 @@ cargo install srgat
 
 ## How to use
 
-- Display documentation
+- Prints the all saved tags in default file or target file
+
+```
+srgat (target.file)
+```
+
+- Prints help information
 
 ```
 srgat -h (or --help)
 ```
 
-- Display tags in the files (fuga.rs)
+- Prints tags in the file(s) (fuga.rs)
 
 ```
-srgat -f (or --file) fuga.rs
+srgat -f (or --files) fuga.rs
 ```
 
-- Display tags in the directory (./scr)
+- Prints tags in the directory (./scr)
 
 ```
 srgat -r (--recursively) ./scr
 ```
 
-- Ignore the files (hoge.rs)
+- Ignore the file(s) (hoge.rs)  
+  NOTE: If you use only this flag, srgat run `srgat`.
 
 ```
-srgat -i hoge.rs
+srgat -f ./scr -i hoge.txt
 ```
 
-- Display the all saved tags in default file or target file
+- TODO: Prints the all saved tags in default file or target file
 
 ```
-srgat -s (or --show) (target_file)
-```
-
-- Display the saved tags in the current directory
-
-```
-srgat -d (or --dump) save_file -f fuga.rs
+srgat -t (or --type) (json, csv, table)
 ```
 
 ## Tags
@@ -59,5 +61,9 @@ srgat -d (or --dump) save_file -f fuga.rs
 - TODO:
 - INFO:
 - FIX:
+- WARNING:
+- NOTE:
+- HACK:
+- PERF:
 
 ## Configuration
