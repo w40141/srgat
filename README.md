@@ -3,9 +3,8 @@
 ファイル内のコメントに書かれたタグを管理する CLI
 
 [![Rust](https://github.com/w40141/srgat/actions/workflows/rust.yml/badge.svg)](https://github.com/w40141/srgat/actions/workflows/rust.yml)
-![GitHub](https://img.shields.io/github/license/w40141/srgat)
-![Codecov](https://img.shields.io/codecov/c/github/w40141/srgat)
-![creato]
+[![Codecov](https://codecov.io/gh/w40141/srgat/branch/master/graph/badge.svg?token=TXJRPE9C9P)](https://codecov.io/gh/w40141/srgat)
+[![GitHub license](https://img.shields.io/github/license/w40141/srgat)](https://github.com/w40141/srgat/blob/master/LICENSE)
 
 ## Installation
 
