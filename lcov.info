@@ -1,35 +1,369 @@
 TN:
 SF:src/main.rs
-FN:10,srgat::main
-FN:1,srgat::search_term
-FN:1,srgat::search_term
-FN:10,srgat::main
+FN:26,srgat::find_tags
+FN:6,<srgat::Cli as structopt::StructOptInternal>::augment_clap
+FN:6,<srgat::Cli as core::fmt::Debug>::fmt
+FN:6,<srgat::Cli as core::fmt::Debug>::fmt
+FN:89,srgat::run_dirctory
+FN:15,<srgat::Cli as structopt::StructOptInternal>::augment_clap::{{closure}}::{{closure}}
+FN:72,srgat::read_file
+FN:15,<srgat::Cli as structopt::StructOpt>::from_clap::{{closure}}
+FN:12,<srgat::Cli as structopt::StructOpt>::from_clap::{{closure}}
+FN:6,<srgat::Cli as structopt::StructOpt>::clap
+FN:12,<srgat::Cli as structopt::StructOptInternal>::augment_clap::{{closure}}::{{closure}}
+FN:12,<srgat::Cli as structopt::StructOpt>::from_clap::{{closure}}
+FN:6,<srgat::Cli as structopt::StructOptInternal>::augment_clap
 FN:1,srgat::main
-FNDA:0,srgat::main
-FNDA:0,srgat::search_term
-FNDA:0,srgat::search_term
-FNDA:0,srgat::main
+FN:15,<srgat::Cli as structopt::StructOptInternal>::augment_clap::{{closure}}
+FN:15,<srgat::Cli as structopt::StructOptInternal>::augment_clap::{{closure}}::{{closure}}
+FN:112,srgat::main
+FN:53,srgat::test_find_tag
+FN:102,srgat::run
+FN:64,srgat::read_files
+FN:11,<srgat::Cli as structopt::StructOpt>::from_clap::{{closure}}
+FN:15,<srgat::Cli as structopt::StructOptInternal>::augment_clap::{{closure}}::{{closure}}
+FN:12,<srgat::Cli as structopt::StructOptInternal>::augment_clap::{{closure}}
+FN:6,<srgat::Cli as structopt::StructOptInternal>::is_subcommand
+FN:26,srgat::find_tags
+FN:89,srgat::run_dirctory
+FN:15,<srgat::Cli as structopt::StructOptInternal>::augment_clap::{{closure}}
+FN:97,srgat::run_show
+FN:15,<srgat::Cli as structopt::StructOpt>::from_clap::{{closure}}
+FN:12,<srgat::Cli as structopt::StructOptInternal>::augment_clap::{{closure}}::{{closure}}
+FN:12,<srgat::Cli as structopt::StructOptInternal>::augment_clap::{{closure}}
+FN:6,<srgat::Cli as structopt::StructOptInternal>::is_subcommand
+FN:97,srgat::run_show
+FN:15,<srgat::Cli as structopt::StructOptInternal>::augment_clap::{{closure}}::{{closure}}
+FN:64,srgat::read_files
+FN:72,srgat::read_file
+FN:60,srgat::run_files
+FN:11,<srgat::Cli as structopt::StructOpt>::from_clap::{{closure}}
+FN:60,srgat::run_files
+FN:43,srgat::find_tag
+FN:78,srgat::read_lines
+FN:112,srgat::main
+FN:12,<srgat::Cli as structopt::StructOptInternal>::augment_clap::{{closure}}::{{closure}}
+FN:6,<srgat::Cli as structopt::StructOpt>::from_clap
+FN:78,srgat::read_lines
+FN:102,srgat::run
+FN:6,<srgat::Cli as structopt::StructOpt>::from_clap
+FN:6,<srgat::Cli as structopt::StructOpt>::clap
+FN:85,srgat::print_line
+FN:12,<srgat::Cli as structopt::StructOptInternal>::augment_clap::{{closure}}::{{closure}}
+FN:85,srgat::print_line
+FN:43,srgat::find_tag
+FN:53,srgat::test_find_tag::{{closure}}
+FNDA:0,srgat::find_tags
+FNDA:0,<srgat::Cli as structopt::StructOptInternal>::augment_clap
+FNDA:0,<srgat::Cli as core::fmt::Debug>::fmt
+FNDA:0,<srgat::Cli as core::fmt::Debug>::fmt
+FNDA:0,srgat::run_dirctory
+FNDA:0,<srgat::Cli as structopt::StructOptInternal>::augment_clap::{{closure}}::{{closure}}
+FNDA:0,srgat::read_file
+FNDA:0,<srgat::Cli as structopt::StructOpt>::from_clap::{{closure}}
+FNDA:0,<srgat::Cli as structopt::StructOpt>::from_clap::{{closure}}
+FNDA:0,<srgat::Cli as structopt::StructOpt>::clap
+FNDA:0,<srgat::Cli as structopt::StructOptInternal>::augment_clap::{{closure}}::{{closure}}
+FNDA:0,<srgat::Cli as structopt::StructOpt>::from_clap::{{closure}}
+FNDA:0,<srgat::Cli as structopt::StructOptInternal>::augment_clap
 FNDA:1,srgat::main
-FNF:5
-FNH:1
-BRDA:2,0,0,-
-BRDA:2,0,1,-
-BRDA:2,0,2,-
-BRDA:3,0,0,-
-BRDA:3,0,1,-
-BRF:5
-BRH:0
+FNDA:0,<srgat::Cli as structopt::StructOptInternal>::augment_clap::{{closure}}
+FNDA:0,<srgat::Cli as structopt::StructOptInternal>::augment_clap::{{closure}}::{{closure}}
+FNDA:0,srgat::main
+FNDA:1,srgat::test_find_tag
+FNDA:0,srgat::run
+FNDA:0,srgat::read_files
+FNDA:0,<srgat::Cli as structopt::StructOpt>::from_clap::{{closure}}
+FNDA:0,<srgat::Cli as structopt::StructOptInternal>::augment_clap::{{closure}}::{{closure}}
+FNDA:0,<srgat::Cli as structopt::StructOptInternal>::augment_clap::{{closure}}
+FNDA:0,<srgat::Cli as structopt::StructOptInternal>::is_subcommand
+FNDA:0,srgat::find_tags
+FNDA:0,srgat::run_dirctory
+FNDA:0,<srgat::Cli as structopt::StructOptInternal>::augment_clap::{{closure}}
+FNDA:0,srgat::run_show
+FNDA:0,<srgat::Cli as structopt::StructOpt>::from_clap::{{closure}}
+FNDA:0,<srgat::Cli as structopt::StructOptInternal>::augment_clap::{{closure}}::{{closure}}
+FNDA:0,<srgat::Cli as structopt::StructOptInternal>::augment_clap::{{closure}}
+FNDA:0,<srgat::Cli as structopt::StructOptInternal>::is_subcommand
+FNDA:0,srgat::run_show
+FNDA:0,<srgat::Cli as structopt::StructOptInternal>::augment_clap::{{closure}}::{{closure}}
+FNDA:0,srgat::read_files
+FNDA:0,srgat::read_file
+FNDA:0,srgat::run_files
+FNDA:0,<srgat::Cli as structopt::StructOpt>::from_clap::{{closure}}
+FNDA:0,srgat::run_files
+FNDA:0,srgat::find_tag
+FNDA:0,srgat::read_lines
+FNDA:0,srgat::main
+FNDA:0,<srgat::Cli as structopt::StructOptInternal>::augment_clap::{{closure}}::{{closure}}
+FNDA:0,<srgat::Cli as structopt::StructOpt>::from_clap
+FNDA:0,srgat::read_lines
+FNDA:0,srgat::run
+FNDA:0,<srgat::Cli as structopt::StructOpt>::from_clap
+FNDA:0,<srgat::Cli as structopt::StructOpt>::clap
+FNDA:0,srgat::print_line
+FNDA:0,<srgat::Cli as structopt::StructOptInternal>::augment_clap::{{closure}}::{{closure}}
+FNDA:0,srgat::print_line
+FNDA:1,srgat::find_tag
+FNDA:1,srgat::test_find_tag::{{closure}}
+FNF:53
+FNH:4
+BRDA:6,0,0,-
+BRDA:6,0,1,-
+BRDA:6,0,2,-
+BRDA:6,0,3,-
+BRDA:6,0,4,-
+BRDA:6,0,5,-
+BRDA:6,0,6,-
+BRDA:6,0,7,-
+BRDA:6,0,8,-
+BRDA:6,0,9,-
+BRDA:6,0,10,-
+BRDA:6,0,11,-
+BRDA:6,0,12,-
+BRDA:6,0,13,-
+BRDA:6,0,14,-
+BRDA:6,0,15,-
+BRDA:6,0,16,-
+BRDA:6,0,17,-
+BRDA:6,0,18,-
+BRDA:6,0,19,-
+BRDA:6,0,20,-
+BRDA:6,0,21,-
+BRDA:6,0,22,-
+BRDA:6,0,23,-
+BRDA:6,0,24,-
+BRDA:6,0,25,-
+BRDA:6,0,26,-
+BRDA:6,0,27,-
+BRDA:6,0,28,-
+BRDA:6,0,29,-
+BRDA:6,0,30,-
+BRDA:6,0,31,-
+BRDA:6,0,32,-
+BRDA:6,0,33,-
+BRDA:6,0,34,-
+BRDA:6,0,35,-
+BRDA:6,0,36,-
+BRDA:6,0,37,-
+BRDA:9,0,0,-
+BRDA:9,0,1,-
+BRDA:9,0,2,-
+BRDA:9,0,3,-
+BRDA:9,0,4,-
+BRDA:9,0,5,-
+BRDA:9,0,6,-
+BRDA:9,0,7,-
+BRDA:12,0,0,-
+BRDA:12,0,1,-
+BRDA:12,0,2,-
+BRDA:12,0,3,-
+BRDA:12,0,4,-
+BRDA:12,0,5,-
+BRDA:12,0,6,-
+BRDA:12,0,7,-
+BRDA:12,0,8,-
+BRDA:12,0,9,-
+BRDA:12,0,10,-
+BRDA:12,0,11,-
+BRDA:12,0,12,-
+BRDA:12,0,13,-
+BRDA:12,0,14,-
+BRDA:12,0,15,-
+BRDA:15,0,0,-
+BRDA:15,0,1,-
+BRDA:15,0,2,-
+BRDA:15,0,3,-
+BRDA:15,0,4,-
+BRDA:15,0,5,-
+BRDA:15,0,6,-
+BRDA:15,0,7,-
+BRDA:15,0,8,-
+BRDA:15,0,9,-
+BRDA:15,0,10,-
+BRDA:15,0,11,-
+BRDA:15,0,12,-
+BRDA:15,0,13,-
+BRDA:15,0,14,-
+BRDA:15,0,15,-
+BRDA:36,0,0,-
+BRDA:36,0,1,-
+BRDA:36,0,2,-
+BRDA:36,0,3,-
+BRDA:36,0,4,-
+BRDA:37,0,0,-
+BRDA:37,0,1,-
+BRDA:37,0,2,-
+BRDA:37,0,3,-
+BRDA:38,0,0,-
+BRDA:38,0,1,-
+BRDA:45,0,0,1
+BRDA:45,0,1,-
+BRDA:46,0,0,-
+BRDA:46,0,1,-
+BRDA:46,0,2,1
+BRDA:55,0,0,1
+BRDA:55,0,1,-
+BRDA:57,0,0,1
+BRDA:57,0,1,-
+BRDA:65,0,0,-
+BRDA:65,0,1,-
+BRDA:65,0,2,-
+BRDA:65,0,3,-
+BRDA:65,0,4,-
+BRDA:66,0,0,-
+BRDA:66,0,1,-
+BRDA:67,0,0,-
+BRDA:67,0,1,-
+BRDA:67,0,2,-
+BRDA:67,0,3,-
+BRDA:73,0,0,-
+BRDA:73,0,1,-
+BRDA:73,0,2,-
+BRDA:73,0,3,-
+BRDA:73,0,4,-
+BRDA:73,0,5,-
+BRDA:74,0,0,-
+BRDA:74,0,1,-
+BRDA:74,0,2,-
+BRDA:74,0,3,-
+BRDA:75,0,0,-
+BRDA:75,0,1,-
+BRDA:79,0,0,-
+BRDA:79,0,1,-
+BRDA:79,0,2,-
+BRDA:79,0,3,-
+BRDA:79,0,4,-
+BRDA:79,0,5,-
+BRDA:79,0,6,-
+BRDA:79,0,7,-
+BRDA:79,0,8,-
+BRDA:79,0,9,-
+BRDA:79,0,10,-
+BRDA:79,0,11,-
+BRDA:79,0,12,-
+BRDA:81,0,0,-
+BRDA:81,0,1,-
+BRDA:90,0,0,-
+BRDA:90,0,1,-
+BRDA:90,0,2,-
+BRDA:91,0,0,-
+BRDA:91,0,1,-
+BRDA:91,0,2,-
+BRDA:91,0,3,-
+BRDA:91,0,4,-
+BRDA:91,0,5,-
+BRDA:91,0,6,-
+BRDA:91,0,7,-
+BRDA:91,0,8,-
+BRDA:91,0,9,-
+BRDA:91,0,10,-
+BRDA:91,0,11,-
+BRDA:92,0,0,-
+BRDA:92,0,1,-
+BRDA:92,0,2,-
+BRDA:92,0,3,-
+BRDA:92,0,4,-
+BRDA:92,0,5,-
+BRDA:92,0,6,-
+BRDA:92,0,7,-
+BRDA:103,0,0,-
+BRDA:103,0,1,-
+BRDA:103,0,2,-
+BRDA:104,0,0,-
+BRDA:104,0,1,-
+BRDA:105,0,0,-
+BRDA:105,0,1,-
+BRDA:105,0,2,-
+BRDA:106,0,0,-
+BRDA:106,0,1,-
+BRDA:107,0,0,-
+BRDA:107,0,1,-
+BRDA:110,0,0,-
+BRDA:110,0,1,-
+BRDA:110,0,2,-
+BRDA:110,0,3,-
+BRDA:110,0,4,-
+BRDA:110,0,5,-
+BRDA:110,0,6,-
+BRDA:110,0,7,-
+BRDA:110,0,8,-
+BRDA:110,0,9,-
+BRDA:110,0,10,-
+BRDA:110,0,11,-
+BRDA:110,0,12,-
+BRDA:110,0,13,-
+BRDA:110,0,14,-
+BRDA:110,0,15,-
+BRF:187
+BRH:4
 DA:1,1
-DA:2,0
-DA:3,0
-DA:4,0
-DA:5,0
-DA:8,0
-DA:10,0
+DA:6,0
+DA:9,0
 DA:11,0
 DA:12,0
+DA:14,0
+DA:15,0
 DA:17,0
-DA:18,0
-LF:11
-LH:1
+DA:26,0
+DA:27,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:41,0
+DA:43,2
+DA:44,2
+DA:45,2
+DA:46,2
+DA:47,2
+DA:48,0
+DA:50,2
+DA:53,2
+DA:54,1
+DA:55,1
+DA:56,1
+DA:57,1
+DA:58,2
+DA:60,0
+DA:61,0
+DA:62,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:70,0
+DA:72,0
+DA:73,0
+DA:74,0
+DA:75,0
+DA:76,0
+DA:78,0
+DA:79,0
+DA:80,0
+DA:81,0
+DA:83,0
+DA:85,0
+DA:86,0
+DA:87,0
+DA:89,0
+DA:90,0
+DA:91,0
+DA:92,0
+DA:94,0
+DA:97,0
+DA:98,0
+DA:99,0
+DA:102,0
+DA:103,0
+DA:104,0
+DA:105,0
+DA:106,0
+DA:107,0
+DA:110,0
+DA:112,0
+DA:113,0
+DA:114,0
+DA:115,0
+LF:67
+LH:13
 end_of_record
